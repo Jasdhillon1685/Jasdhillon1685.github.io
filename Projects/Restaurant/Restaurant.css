@@ -1,0 +1,21 @@
+.container{
+    max-width: 600px;
+    margin: 10px;
+    padding: 02px;
+    color:bisque;
+    font-size: 130%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last:center;
+    
+   
+
+}
+
+body{
+    background-image:url('spices-with-spoon-copy.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 150%;
+}
+
+/* Picture used from Pexels.com */

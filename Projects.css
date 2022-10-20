@@ -1,0 +1,78 @@
+
+body{
+  
+  background-image: url('Clouds.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+
+.topnav{
+   background-color:darkblue;
+   overflow:hidden;
+   text-align:right;
+   
+   
+}
+
+
+.topnav a{
+    float: right;
+    color:coral;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:bisque;
+    color:brown;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:transparent ;
+    color:coral;
+  }
+
+  .h2 {
+    color:blue;
+    border-style:groove;
+    font-family: 'Allerta', sans-serif;
+    text-align:center;
+  }
+
+  .homepage{
+    color:blue;
+    font-family: 'Courgette', cursive;
+    
+    
+  }
+
+  .title{
+    color:blue;
+    font-family: 'Allerta', sans-serif;
+  }
+
+  .submit{
+    background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ 
+.heading{
+  color:darkblue;
+  text-align:center;
+  text-decoration: underline;
+}
