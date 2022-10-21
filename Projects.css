@@ -1,7 +1,7 @@
 
 body{
   
-  background-image: url('Clouds.jpg');
+  background-image: url('pinkclouds.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -10,13 +10,21 @@ body{
 
 
 .topnav{
-   background-color:darkblue;
+   background-color:darkmagenta;
    overflow:hidden;
    text-align:right;
    
    
 }
 
+.image{
+  height:100px; 
+  margin:10px 10px;
+  float: left;
+  padding: 80px;
+
+  
+}
 
 .topnav a{
     float: right;
@@ -39,16 +47,16 @@ body{
     color:coral;
   }
 
-  .h2 {
-    color:blue;
+  .h2 {padding-right: 100px;
+    color:maroon;
     border-style:groove;
     font-family: 'Allerta', sans-serif;
     text-align:center;
   }
 
   .homepage{
-    color:blue;
-    font-family: 'Courgette', cursive;
+    color:maroon;
+    font-family: 'Gentium Plus', serif;
     
     
   }
@@ -59,7 +67,7 @@ body{
   }
 
   .submit{
-    background-color: darkblue;
+    background-color: crimson;
   border: none;
   color: white;
   padding: 20px;
@@ -72,7 +80,13 @@ body{
 }
  
 .heading{
-  color:darkblue;
+  color:crimson;
   text-align:center;
   text-decoration: underline;
 }
+
+.image{
+  height:250px; 
+  padding-top:100px;
+  }
+  
