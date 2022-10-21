@@ -1,0 +1,73 @@
+body{
+    background-color: #8FBC8B;
+    background-image:url('sky.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+      }
+
+      .column {
+        float: center;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .gallery a {
+        color: blue;
+        text-align: center;
+        padding: 14px 25px;
+        text-decoration: none;
+        font-size: 17px;
+        margin:20px;
+        display:inline-block;
+        color:darkblue;
+        font-weight: bold;
+      }
+        
+      
+   
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 500%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align:start;
+      }
+      
+    
+      
+      
+      .gallery a:hover {
+        background-color: lightgrey;
+        color: black;
+      }
+      
+      .gallery a.active {
+        background-color: transparent;
+        color:darkblue;
+      }      
+
+      
+       
+        .Heading{
+          text-shadow: 3px 5px 2px #474747, -5px 14px 11px rgba(78,206,107,0.57);
+          color:blue;
+          background: transparent;
+          text-align:center;
+          font-size: 50px;
+
+          }
+ 
